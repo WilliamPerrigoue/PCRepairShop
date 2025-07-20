@@ -1,0 +1,67 @@
+/* PCREPAIRSHOP.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+body {
+    /* background-image: url("Background11.jpg");*/
+    background-color: forestgreen;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+head {
+    color: cyan;
+}
+
+h1 {
+    color: goldenrod;
+    width: 50%;
+    margin: 0 auto;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.repair-shop {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+h2 {
+    color: goldenrod;
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows wrapping on small screens */
+    gap: 40px;
+    /* Spacing between columns */
+    justify-content: flex-start;
+    /* Align left or use center if preferred */
+    padding: 20px;
+}
+
+.services ul {
+    flex: 1 1 200px;
+    /* Min width 200px, grow/shrink naturally */
+    margin: 0;
+    padding: 0;
+    list-style: disc inside;
+}
+.service-item {
+    font-size: large;
+    font-weight: bold;
+    color: agathistone;
+    margin-bottom: 10px;
+}
